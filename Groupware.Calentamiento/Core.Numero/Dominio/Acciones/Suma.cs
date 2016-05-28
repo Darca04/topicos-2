@@ -15,6 +15,7 @@ namespace Core.Numero.Dominio.Acciones
             if (validarBases.LasDosBasesSonIguales(elPrimerNumero, elSegundoNumero))
             {
                 double elResultadoNumerico = (elPrimerNumero.elNumeroEnDecimal + elSegundoNumero.elNumeroEnDecimal);
+                //TO DO Convertir a base inicial
                 resultado = new Numero(elResultadoNumerico.ToString(), elPrimerNumero.laBase);
             }
             return (resultado);
