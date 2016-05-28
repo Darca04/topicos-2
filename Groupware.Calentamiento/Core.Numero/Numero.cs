@@ -13,10 +13,28 @@ namespace Core.Numero
 
         public bool esBaseDiez { get {
                 return laBase == 10; }
-             }
+        }
 
         public double elNumeroEnDecimal { get {
-                return double.Parse(elNumero); } }
+                return double.Parse(elNumero); }
+        }
+
+        public Numero(string elNumero,int laBase)
+        {
+            Numero elResultado;
+            //instancia una validacion del numero
+            var validacionBase = new Dominio.Validaciones.ValidarBase();
+            var validacionNumero = new Dominio.Validaciones.ValidarNumero();
+            if (validacionBase.LaBaseEstaEnElIntervaloCorrecto(laBase) & validacionNumero.elNumeroEsValidoEnLaBase(elNumero, laBase))
+            {
+                this.laBase = laBase;
+                this.elNumero = elNumero;
+            }
+            else
+            {
+                elResultado = null;
+            }
+        }
 
     }
 }
