@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Groupware.Calentamiento")]
+[assembly: AssemblyTitle("Tests.Calculadora")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Groupware.Calentamiento")]
+[assembly: AssemblyProduct("Tests.Calculadora")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("66648c8c-f550-4c79-b9e9-ad428851ae06")]
+[assembly: Guid("8ce4d36a-2fca-484a-96dd-480caa5b432c")]
 
 // Version information for an assembly consists of the following four values:
 //

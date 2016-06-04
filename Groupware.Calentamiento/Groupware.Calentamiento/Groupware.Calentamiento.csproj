@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>8b2d5079-364a-40af-b53c-802ae191e77d</ProjectGuid>
+    <ProjectGuid>66648c8c-f550-4c79-b9e9-ad428851ae06</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Groupware.Calentamiento</RootNamespace>

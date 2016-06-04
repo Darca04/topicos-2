@@ -8,22 +8,23 @@ namespace Core.Numero.Dominio.Validaciones
 {
     public class ValidarNumero
     {
-        public bool elNumeroEsValidoEnLaBase(string elNumero, int laBase)
+        public bool ElNumeroEsValidoEnLaBase (string elNumero, int laBase)
         {
             bool elResultado = true;
-            for(int i = 0; (i < elNumero.Length)&(elResultado==true); i++)
+            for (int i = 0; (elResultado == true) & (i < elNumero.Length); i++)
             {
-                elResultado = elDigitoEsValidoEnLaBase(elNumero[i], laBase);
+                elResultado = ElDigitoEsValidoEnLaBase(elNumero[i], laBase);
             }
             return (elResultado);
         }
 
-        private bool elDigitoEsValidoEnLaBase(char elDigito, int laBase)
+        private bool ElDigitoEsValidoEnLaBase (char elDigito, int laBase)
         {
             bool elResultado;
-            //TO DO;
+            // TODO:  Verificarlo!!!
             elResultado = true;
             return (elResultado);
+
         }
     }
 }

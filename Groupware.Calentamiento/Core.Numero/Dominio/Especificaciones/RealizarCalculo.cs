@@ -8,13 +8,12 @@ namespace Core.Numero.Dominio.Especificaciones
 {
     public class RealizarCalculo
     {
-        public Numero OperadorBinario(char elOperador,Numero elPrimerNumero,Numero elSegundoNumero)
+        public Numero OperadorBinario(char elOperador, Numero elPrimerNumero, Numero elSegundoNumero)
         {
-            Numero elResultado = null ;
+            Numero elResultado = null;
             switch (elOperador)
             {
-                case '+':
-                    var accionSuma = new Acciones.Suma();
+                case '+':   var accionSuma = new Acciones.Suma();
                     elResultado = accionSuma.Operar(elPrimerNumero, elSegundoNumero);
                     break;
             }
